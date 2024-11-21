@@ -20,4 +20,14 @@ In Python, there's the Global Interpreter Lock (GIL), which can cause issues. At
 
 ![MD-179-4-min](https://github.com/user-attachments/assets/dc757da3-90ed-491b-8857-99f05f49323b)
 
-In this example we used to upload to the google drive and we used for the frontend telegram and we used the benchmarks and also cpython please check the code to learn more 
+In this example we used to upload to the google drive and we used for the frontend telegram and we used the benchmarks and also cpython please check the code to learn more.
+
+Here's how to run the project:
+Install required packages:
+```bash
+pip install -r requirements.txt
+```
+and then run this command to compile c code:
+```bash
+bash mahe.sh
+```
